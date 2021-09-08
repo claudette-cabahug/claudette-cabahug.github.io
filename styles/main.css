@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  height:100%;
+}
+
+/* Header */
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background: aquamarine;
+  padding: 0 64px;
+}
+
+nav ul li {
+  float: right;
+  padding: 16px 12px;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+nav ul li.brand-name {
+  float: left;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 12px 12px;
+}
+
+nav ul li.active {
+  background: hotpink;
+}
+
+nav ul li.active a {
+  color: white;
+}
+
+
+/* Homepage */
+
+
+
+#content {
+  background: linear-gradient(90deg, aquamarine 0%, white 50%, hotpink 100%);
+  width: calc(100% - 152px);
+  height: calc(100% - 98px);
+  position: absolute;
+  top: 49px;
+  left: 0px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 0 76px;
+}
+
+h2 {
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 12px 4px;
+}
+
+p {
+  font-size: medium;
+  padding: 4px 4px;
+}
+
+/* Footer */
+
+footer {
+  background: hotpink;
+  padding: 16px 76px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: -webkit-fill-available;
+}
+
+@media (max-width: 900px) {
+  nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background: aquamarine;
+    padding: 0 64px;
+  }
+  
+  nav ul li {
+    float: right;
+    padding: 16px 12px;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  
+  nav ul li.brand-name {
+    display: none;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 12px 12px;
+  }
+
+  nav ul li.active {
+    display: inline-block;
+    background: hotpink;
+  }
+  
+  nav ul li.active a {
+    color: white;
+  }
+}
+
+/* Blog */
+
+#blog-content {
+  background: linear-gradient(90deg, aquamarine 0%, white 50%, hotpink 100%);
+  width: calc(100% - 152px);
+  height: calc(100% - 170px);
+  position: absolute;
+  top: 49px;
+  left: 0px;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  padding: 36px 76px;
+}
+
+/* About */
+
+.about-content {
+  background: linear-gradient(90deg, aquamarine 0%, white 50%, hotpink 100%);
+  width: calc(100% - 152px);
+  height: calc(100% - 170px);
+  position: absolute;
+  top: 49px;
+  left: 0px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  padding: 36px 76px;
+}
+
+.about-content img {
+  height: 400px;
+  width: auto;
+}
+
+#about-me {
+  padding-left: 20px;
+}
+
