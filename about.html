@@ -2,48 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Claudette Cabahug</title>
     <link rel="stylesheet" href="styles\main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Header -->
-    <header>
-        <nav>
-            <ul>
-                <li class="brand-name"><a href="index.html">Claudette Cabahug</a></li>
-                <li class="active"><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="index.html">Home</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Content -->
-    <div class="about-content">
-        <div><img src="images/20190727_213525.jpg" alt="selfie with ocean behind a woman"></div>
-        <div id="about-me">
-            <h2>About Me</h2>
-            <p>Hi, my name is Claudette Cabahug, currently living in the beautiful little capital of New Zealand,
-                Wellington.</p>
-            <p>Back home in the Philippines, I finished a degree in law and have had extensive experience in the insurance
-                industry, particularly in the areas of sales, recruitment, and people management. At some point, I also
-                dabbled in content writing for the web, ensuring client sites are search engine optimised, and it was
-                something I really enjoyed.</p>
-            <p>Now, I am embarking on the journey of my life. I have joined Enspiral Dev Academy hoping to become web
-                developer before I turn 40! I am keen to work on projects that will help parents like me make their life
-                easier. However, I do welcome out of this universe, blow my mind away ideas that will help make the world a
-                better place.</p>
+    <div class="header">
+        <a href="index.html" class="logo">Claudette Cabahug</a>
+        <div class="header-right">
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a class="active" href="about.html">About</a>
         </div>
-        
     </div>
 
+    <!-- Content -->
+    <div class="container">     
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p><img src="images/20190727_213525.jpg" alt="selfie with ocean behind a woman" id="img-about" width="300" height="300" style=margin-right:40px></p>
+            <div>
+                <p>Hi, my name is Claudette Cabahug, currently living in the beautiful little capital of New Zealand -- Wellington.</p>
+                <p>Back home in the Philippines, I finished a degree in law and have had extensive experience in the
+                    insurance
+                    industry, particularly in the areas of sales, recruitment, and people management. At some point, I also
+                    dabbled in content writing for the web, ensuring client sites are search engine optimised, and it was
+                    something I really enjoyed.</p>
+                <p>Now, I am embarking on the journey of my life. I have joined Enspiral Dev Academy hoping to become web
+                    developer before I turn 40! I am keen to work on projects that will help parents like me make their life
+                    easier. However, I do welcome out of this universe, blow my mind away ideas that will help make the
+                    world a
+                    better place.</p>
+            </div>
+        </div>
+
+    </div>
 
     <!-- Footer -->
-    <footer>
-        &copy; 2021 Claudette Cabahug. All rights reserved.
-    </footer>
+    <div class="footer">
+        <p>&copy; 2021 Claudette Cabahug. All rights reserved.</p>
+        </footer>
 </body>
 
 </html>
