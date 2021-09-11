@@ -114,8 +114,11 @@ body {
   }
 
   #img-about {
-    margin: auto;
-    float: none;
+    display: none;
+  }
+
+  table {
+    table-layout: fixed;
   }
 
 }
@@ -160,8 +163,13 @@ h5 {
   font-size: 16px;
 }
 
+ul.a {
+  list-style-type: disc;
+  margin-left: 18px;
+}
+
 table, th, td {
-  border:1px solid black;  
+  border: 1px solid black;  
 }
 
 th, td {
