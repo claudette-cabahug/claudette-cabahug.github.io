@@ -2,9 +2,11 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Claudette Cabahug</title>
-  <link rel="stylesheet" href="styles\main.css">
+  <link href="styles/main.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
@@ -12,31 +14,35 @@
 
 <body>
   <!-- Header -->
-  
-    <div class="header">
-      <a href="index.html" class="logo">Claudette Cabahug</a>
-      <div class="header-right">
-        <a class="active" href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="about.html">About</a>
-      </div>
-    </div>
 
-    <!-- Main -->
+  <div class="header">
+    <a href="index.html" class="logo">Claudette Cabahug</a>
+    <div class="header-right">
+      <a class="active" href="index.html">Home</a>
+      <a href="blog/blog.html">Blog</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+
+  <!-- Main -->
   <div class="container">
-    <div style="padding-left:20px">
+    <div class="container-welcome">
       <h2>Welcome to <span class="note">My Enspiral Dev Academy Blog</span></h2>
       <p>This space is dedicated to my learning journey towards becoming a full-fledged web developer.</p>
       <img src="images/homepage photo.png" alt="programming devices on a table" width="600" height="600">
       <p>Allow me to share with you how my knowledge and skills have grown.</p>
-      <p>Here is my first blog:</p>
-      <p><a href="blog.html"><b>Class and ID: Best Practices Towards Writing Your Best Code<b></a></p>
-      <p>Wohoo!</p>
+
+      <section>
+        <p><strong>Here are my blogs:</strong></p>
+        <p><a href="blog/blog.html">Class and ID: Best Practices Towards Writing Your Best Code</a></p>
+        <p><a href="blog/learning-plan.html">My Learning Plan</a></p>
+        <p><a href="blog/identity-values.html">Identity, Values, and Strengths</a></p>
+      </section>
     </div>
   </div>
 
   <!-- Footer -->
-  <div class="footer">
+  <footer>
     <p>&copy; 2021 Claudette Cabahug. All rights reserved.</p>
   </footer>
 </body>
