@@ -106,7 +106,9 @@ body {
   }
 
   .header a.logo {
-    display: none;
+    font-size: 25px;
+    padding-left: 12px;
+    padding-top: 12px;
   }
 
   .container {
@@ -168,6 +170,12 @@ ul.a {
   margin-left: 18px;
 }
 
+ol li {
+  display: list-item;
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+
 table, th, td {
   border: 1px solid black;  
 }
@@ -182,6 +190,7 @@ th, td {
 section {
   background-color: whitesmoke;
   padding: 40px;
+  text-align: left;
 }
 
 h4 {
@@ -198,6 +207,8 @@ h4 {
   float: left;
   width: 300px;
 }
+
+
 
 /* Footer */
 
