@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Claudette Cabahug</title>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+
+    <div class="header">
+        <a href="../index.html" class="logo">Claudette Cabahug</a>
+        <div class="header-right">
+            <a href="../index.html">Home</a>
+            <a class="active" href="bloglist.html">Blog</a>
+            <a href="../about.html">About</a>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="container">
+        <h2>JavaScript Fundamentals</h2>
+
+        <h5>17 Sept 2021 | 10 mins read | Tech</h5>
+        <div class="container-blogs">
+
+            <p style="color:darkred"><strong>Warning: This is a very long blog post. But it is going to be worth
+                    it.</strong></p>
+            <p>Before diving right into JavaScript, allow me to give you a little background about its distant older
+                cousins, <strong>HTML and CSS</strong>. These two are equal partners when it comes to building up what
+                we see on our
+                browsers. While each of them play an important part, they also take on different roles. Essentially,
+                HTML defines the structure of a website and holds the content that we see. On the other hand, CSS
+                provides the appearance and styling of said content. In simpler terms, think of HTML as the boring
+                toilet paper -- plain, white, yet useful. Now adding CSS, our good old dependable friend would then look
+                like this!</p>
+            <img src="../images/toiletpaper.JPG" alt="colorful toilet papers on the wall">
+            <p>Or perhaps you fancy this?</p>
+            <img src="../images/toiletpaper-money.JPG" alt="toilet paper with money printed on it">
+            <p>Fascinating, right? CSS makes HTML look cool. Using HTML’s tags and using them as selectors, CSS is able
+                to target elements so it can provide the much-needed styling. However, despite this, together they still
+                provide limited interactivity. Users merely sit back and observe passively, and at most, they get simple
+                interactions.</p>
+            <p>To fill this important gap, we have <strong>JavaScript</strong>. It deals with interactivity and so much more. Think
+                playing media, remembering where you left off, being able to do things with mouse clicks and keyboard
+                taps, having fancy menus with animations, interacting with webcams and microphones, sourcing information
+                from users. In short, JavaScript is the eye candy that attracts customers and gives them better
+                experience, sometimes even at the expense of good, useful content.</p>
+            <p>But how is all this made possible? How can JavaScript make changes to HTML and CSS?</p>
+
+            <h4>The DOM And How We Interact With It</h4>
+            <p>Well, the real hero behind the scenes is the <strong>Document Object Model</strong>> (or simply, <strong>the DOM</strong>), the data
+                representation of the objects that make up the structure and content of a document on the web. It makes
+                it possible for all the 3 players -- HTML, CSS, and JavaScript -- to work together and produce what you
+                see on your browser. The DOM has a tree-like structure that helps the browser to make sense of what is
+                going on. Through this object representation, it is possible to access and modify HTML elements using
+                JavaScript.</p>
+            <section>
+                <h4>Here is an analogy:</h4>
+                <p>Think of the DOM as like a subdivision development. As an entity, it works in the background
+                    coordinating
+                    and facilitating. But what home buyers can actually see is the actual subdivision it builds -- what
+                    you
+                    see on the browser. Inside this subdivision is HTML, the several houses comprising it, each having
+                    the
+                    basic structures of a good home. However, they are kind of boring because they look very basic:
+                    doors,
+                    windows, roof, walls, bedrooms, garage, bathrooms. Pretty dull, you can imagine.</p>
+                <p>So here now comes CSS to help make HTML look more interesting. CSS then paints and decorates the
+                    houses,
+                    adds photos on the walls, puts fences around them, and makes the subdivision more beautiful with
+                    gardens
+                    and flowers. But something really important is still missing for this subdivision to be a perfect
+                    place
+                    to live in, and that is JavaScript.</p>
+                <p>JavaScript is the body corporate involved in coordinating the affairs of lot owners, such as
+                    conducting
+                    meetings, collecting association dues, keeping financial accounts, etc. This can include something
+                    as
+                    simple as traffic management, automation of security cams, maintenance of common areas, or gathering
+                    information from homeowners. It can also add, remove, move, or modify these aspects of HTML, as well
+                    as
+                    the changes that CSS has done. JavaScript listens and reacts to the needs of its homeowners.</p>
+            </section>
+            <h4>Now What Are Control Flow And Loops?</h4>
+            <p>The computer follows a certain order when performing script statements. Normally, codes are run from the
+                first to the last line of a file -- top to bottom. For example, I watch the evening news before I have
+                dinner. Then after dinner, I clean up the table and watch a movie. This is my normal flow.</p>
+            <p>However, the computer may run into something that changes this order. The same thing that I might not
+                follow the exact order in my routine when certain things happen. In computing, this is when the computer
+                encounters <strong>control flow statements</strong>, and one example of it is <em>looping</em>.</p>
+            <p><strong>Loops</strong> perform repeated tasks based on a condition. Whether it is true or false, it will continue to run
+                until the defined condition is met. The most common types are:</p>
+            <section>
+                <ol>
+                    <li><strong>for loop</strong>> - repeats until a specified condition evaluates to false. As long as the conditional
+                        statement evaluates to true, the loop will continue.</li>
+
+                        <img src="../images/for-loop.JPG" alt="for loop sample code in real life">
+
+                    <li><strong>while loop</strong> - runs while a specified condition is true and stops once that condition is no longer
+                        true</li>
+
+                        <img src="../images/while-loop.JPG" alt="while loop sample code in real life">
+
+                    <li><strong>do while loop</strong> - passes the code once inside the loop no matter what and continue to run it while
+                        the
+                        specified condition evaluates to true</li>
+
+                        <img src="../images/do-while-loop.JPG" alt="do-while loop sample code in real life">
+
+                </ol>
+            </section>
+
+            <h4>What’s the difference between accessing data from arrays and objects?</h4>
+            <p><strong>Object Properties</strong></p>
+
+            <p>Accessing object properties can be done using 2 ways:</p>
+
+            <section>
+                <p><strong>dot notation</strong> - used when you know ahead of time the name of the property you are
+                    trying to access</p>
+
+                <img src="../images/dot-notation.JPG" alt="dot notation sample code">
+
+                <p><strong>bracket notation</strong> - used when the property of the object you are trying to access has
+                    a space in its name (must be in quotes, single or double), and the same can also be used for object
+                    properties without spaces</p>
+
+                <img src="../images/bracket-notation.JPG" alt="bracket notation sample code">
+            </section>
+            <p><strong>Array Data</strong></p>
+
+            <p>On the other hand, data inside arrays can be accessed using zero-based indexing. Similar to objects in
+                that they are written in bracket notations, but different in that it specifies the entry index in the
+                array, not the character.</p>
+
+            <img src="../images/array-data.JPG" alt="array sample code">
+            <p>This would log 18, the second entry in the array.</p>
+
+            <h4>What are functions and why are they useful?</h4>
+            <p>A function refers to the self-contained part/s of a code that is set to do specific tasks. It takes in
+                data, processes it, and then returns a result. It also uses parameters for storing values.</p>
+
+            <img src="../images/functions.JPG" alt="functions sample code">
+
+            <p>Functions are useful in reducing something complicated into smaller and more manageable parts, thus
+                reducing its overall complexity. It is often used for doing repetitive tasks, as well as to improve the
+                readability and reusability of the code. For instance, instead of writing the same code over and over
+                again, it is simplified, and therefore makes debugging and tracing errors easier.</p>
+
+            <section>
+                <h4>Read more:</h4>
+                <p><a href="identity-values.html">Identity, Values, and Strengths</a></p>
+                <p><a href="learning-plan.html">My Learning Plan</a></p>
+                <p><a href="emotional-intelligence.html">Emotional Intelligence</a></p>
+
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2021. All rights reserved.</p>
+        </footer>
+</body>
+
+</html>
