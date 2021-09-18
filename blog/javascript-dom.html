@@ -55,14 +55,15 @@
                 better experience, sometimes even at the expense of good, useful content.</p>
             <p>But how is all this made possible? How can JavaScript make changes to HTML and CSS?</p>
 
-            <h4>The DOM And How We Interact With It</h4>
+            <h4>The DOM</h4>
             <p>Well, the real hero behind the scenes is the <strong>Document Object Model</strong>> (or simply,
                 <strong>the DOM</strong>), the data representation of the objects that make up the structure and content
                 of a document on the web. It makes it possible for all the 3 players -- HTML, CSS, and JavaScript -- to
                 work together and produce what you see on your browser. The DOM has a tree-like structure that helps the
                 browser to make sense of what is going on. Through this object representation, it is possible to access
-                and modify HTML elements using JavaScript.
-            </p>
+                and modify HTML elements using JavaScript.</p>
+            <img src="../images/DOM diagram.jpg" alt="DOM diagram">
+            
             <section>
                 <h4>Here is an analogy:</h4>
                 <p>Think of the DOM as like a subdivision development. As an entity, it works in the background
@@ -82,6 +83,19 @@
                     HTML, as well as the changes that CSS has done. JavaScript listens and reacts to the needs of its
                     homeowners.</p>
             </section>
+
+            <h4>How to Interact with the DOM</h4>
+            <p>One way to interact with the DOM is through JavaScript. For instance, we can use <code>.getElementById</code> or <code>.getElementsByClassName</code> to access elements and attributes whose ID or class is set. Also, we can use <code>.innerHTML</code> to access the content of an element.</p>
+            <img src="../images/getElementsBy.jpg" alt="getElementsById example"> 
+            
+            <p>Another way to interact with the DOM is by manipulating it using the Chrome Developer Tools. You can play around certain changes and see how they would appear on your browser.</p>
+
+            <section>
+            <p><img src="../images/dev-tools-access.jpg" alt="how to access developer tools on Chrome"></p>
+            <p><img src="../images/inspect.jpg" alt="inspect page on Chrome developer tools"></p>
+            <p><img src="../images/netflix.jpg" alt="changed Netflix homepage subtext"></p>
+            </section>
+
             <h4>Now What Are Control Flow And Loops?</h4>
             <p>The computer follows a certain order when performing script statements. Normally, codes are run from the
                 first to the last line of a file -- top to bottom. For example, I watch the evening news before I have
@@ -142,16 +156,17 @@
                 data, processes it, and then returns a result.</p>
 
             <section>
-                <img src="../images/functions.jpg" alt="functions sample code">
+                
 
                 <p><strong>4 parts of a function:</strong>
-                <ul>
+                <ul class="a">
                     <li>The function keyword.</li>
                     <li>An optional name.</li>
                     <li>A list of parameters names enclosed in parentheses.</li>
                     <li>The statement enclosed in braces.</li>
                 </ul>
                 </p>
+                <img src="../images/functions.jpg" alt="functions sample code">
             </section>
             <p>Functions are useful in reducing something complicated into smaller and more manageable parts, thus
                 reducing its overall complexity. It is often used for doing repetitive tasks, as well as to improve the
