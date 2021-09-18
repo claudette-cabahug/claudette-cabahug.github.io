@@ -96,10 +96,16 @@ body {
 
 /* media queries for responsiveness */
 @media all and (max-width: 600px) {
+  
+  .header {
+    padding: 15px 10px;
+  }
+
   .header a {
     float: none;
     display: block;
     text-align: left;
+    padding: 8px;
   }
   .header-right {
     float: none;
@@ -193,11 +199,20 @@ section {
   text-align: left;
 }
 
+
 h4 {
   font-size: large;
   font-weight: bold;
   padding-top: 15px;
   padding-bottom: 5px;
+}
+
+/* Read More */
+
+.container-readmore {
+  background-color: rgba(238, 220, 223, 0.979);
+  padding: 20px;
+  text-align-last: center;
 }
 
 /* About */
