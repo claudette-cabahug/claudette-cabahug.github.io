@@ -131,6 +131,11 @@ body {
     table-layout: fixed;
   }
 
+  code {
+    padding: 1px 4px;
+    border-radius: 4px;
+  }
+
 }
 
 .container-blogs {
